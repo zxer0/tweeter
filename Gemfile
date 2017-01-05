@@ -7,6 +7,12 @@ gem 'rails', '>=4.2.3'
 
 gem 'sqlite3'
 
+# To simplify authentication
+gem 'devise'
+
+# For future pagination needs!
+gem 'kaminari'
+
 
 # Gems used only for assets and not required
 # in production environments by default.
