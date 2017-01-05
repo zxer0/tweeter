@@ -1,0 +1,10 @@
+<%= simple_form_for (@post) do |post| %>
+  <div class="field">
+    <%= post.input :caption %>
+    <%= post.input :image %>
+  </div>
+  
+  <div class="submit">
+    <%= post.button :submit %>
+  </div>
+<% end %>
